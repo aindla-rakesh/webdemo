@@ -10,4 +10,9 @@ public class WelcomeController {
     public  String  welcome(){
      return  "welcome demo1";
     }
+
+    @GetMapping("/merge")
+    public  String  merge(){
+        return  "welcome merge";
+    }
 }
