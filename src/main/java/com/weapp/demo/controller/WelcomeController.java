@@ -11,6 +11,7 @@ public class WelcomeController {
      return  "welcome demo1";
     }
 
+
     @GetMapping("/hi")
     public  String  welcometoMphasis(){
         return  "welcome to Mphasis";
@@ -20,6 +21,10 @@ public class WelcomeController {
     public  String  welcometoUppal(){
         return  "welcome to Uppal";
     }
-
+    
+    @GetMapping("/merge")
+    public  String  merge(){
+        return  "welcome merge";
+    }
 
 }
