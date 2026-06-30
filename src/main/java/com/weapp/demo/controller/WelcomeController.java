@@ -16,4 +16,10 @@ public class WelcomeController {
         return  "welcome to Mphasis";
     }
 
+    @GetMapping("/uppal")
+    public  String  welcometoUppal(){
+        return  "welcome to Uppal";
+    }
+
+
 }
